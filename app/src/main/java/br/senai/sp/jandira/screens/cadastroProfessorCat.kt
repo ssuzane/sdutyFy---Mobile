@@ -88,7 +88,7 @@ fun cadastroCat(modifier: Modifier = Modifier) {
         
         Box(
             modifier = Modifier
-                .offset(x = 0.dp, y = 120.dp)
+                .offset(x = 0.dp, y = 100.dp)
                 .fillMaxHeight()
                 .fillMaxWidth()
                 .background(color = Color(0xFFEEEEEE))

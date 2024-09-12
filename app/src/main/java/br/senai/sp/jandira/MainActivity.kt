@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import br.senai.sp.jandira.screens.cadastroCat
+import br.senai.sp.jandira.screens.escolhaMateria
 import br.senai.sp.jandira.ui.theme.StudyFYTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +22,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             StudyFYTheme {
                 //Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    cadastroCat()
+                   // cadastroCat()
+                escolhaMateria()
                 }
             }
         }
